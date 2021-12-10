@@ -33,7 +33,7 @@ header button, main button{
     display: inline-block;
 }
 header button:hover, main button:hover{
-    outline: black 1px solid;
+    outline: none;
     background-color: white;
     color: black;
     border-radius: 15px;
