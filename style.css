@@ -1,28 +1,36 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto&family=Space+Grotesk&display=swap');
-body{
+
+body {
     background-color: #EEEEEA;
     margin: 0;
 }
-a{
+
+a {
     text-decoration: none;
 }
-header{
+
+header {
     margin-top: 3%;
 }
-header p{
+
+header p {
     margin: 0;
 }
-header a{
+
+header a {
     margin-left: 50px;
 }
-footer,header{
+
+footer, header {
     margin-right: 10%;
     margin-left: 10%;
 }
-header img{
+
+header img {
     width: 100%;
 }
-header button, main button{
+
+header button, main button {
     background-color: black;
     color: white;
     border: none;
@@ -32,7 +40,8 @@ header button, main button{
     text-decoration: none;
     display: inline-block;
 }
-header button:hover, main button:hover{
+
+header button:hover, main button:hover {
     outline: none;
     background-color: white;
     color: black;
@@ -43,11 +52,13 @@ header button:hover, main button:hover{
     -webkit-transition: background-color 0.3s ease-in-out;
     transition: background-color 0.3s ease-in-out;
 }
-.header-flex{
+
+.header-flex {
     align-items: flex-end;
     display: flex;
     justify-content: space-between;
 }
+
 /*Кнопка*/
 .switch {
     position: relative;
@@ -57,7 +68,7 @@ header button:hover, main button:hover{
 }
 
 .switch input {
-    display:none;
+    display: none;
 }
 
 .slider {
@@ -73,7 +84,8 @@ header button:hover, main button:hover{
     -o-transition: .4s;
     -moz-transition: .4s;
 }
-.slider:hover{
+
+.slider:hover {
     box-shadow: #ADFF33 0 3px 8px;
 }
 
@@ -111,19 +123,23 @@ input:checked + .slider:before {
 .slider.round:before {
     border-radius: 50%;
 }
+
 /*----*/
-main{
+main {
     margin-top: 10%;
 }
-.main-flex{
+
+.main-flex {
     display: flex;
     justify-content: center;
 }
-.main-flex > div{
+
+.main-flex > div {
     margin-bottom: 5%;
 }
-.hero-text{
-    font-family: Arial,'Space Grotesk', sans-serif;
+
+.hero-text {
+    font-family: Arial, 'Space Grotesk', sans-serif;
     font-weight: 400;
     font-size: 43px;
     line-height: 45px;
@@ -131,55 +147,65 @@ main{
     color: #000000;
     margin-bottom: 3%;
 }
-.under-hero-text{
+
+.under-hero-text {
     margin-right: 2%;
-    font-family: Arial,'Space Grotesk', sans-serif;
+    font-family: Arial, 'Space Grotesk', sans-serif;
     font-weight: 400;
     font-size: 20px;
     line-height: 20px;
     color: #000000;
 }
-.communication{
+
+.communication {
     width: 100%;
     height: 100%;
 }
-.medium{
+
+.medium {
     text-align: center;
 }
-.medium-communication{
+
+.medium-communication {
     margin-left: auto;
     margin-right: auto;
     width: 80%;
     height: 80%;
 }
-.margin-top{
+
+.margin-top {
     margin-top: 10%;
 }
-.margin-p{
+
+.margin-p {
     margin-top: 4%;
 }
 
-.under-description{
-    font-family: Arial,'Space Grotesk', sans-serif;
+.under-description {
+    font-family: Arial, 'Space Grotesk', sans-serif;
     font-weight: 400;
     font-size: 18px;
     line-height: 27px;
     color: #000000;
 }
-.under-flex{
+
+.under-flex {
     gap: 5%;
     display: flex;
     justify-content: center;
 }
-.screen-timso{
+
+.screen-timso {
     width: 40%;
     height: 40%;
 }
-.timso-screen{
+
+.timso-screen {
     width: 100%;
     height: 100%;
 }
-.screen-timso:hover{
+
+.screen-timso:hover {
     animation-duration: 1s;
     animation-name: sizing;
     -moz-animation-name: sizing;
@@ -189,37 +215,45 @@ main{
     -webkit-animation-name: sizing;
     -webkit-animation-duration: 1s;
 }
-.first-logo{
+
+.first-logo {
     width: 100%;
     height: 100%;
 }
-.logo-size-one{
+
+.logo-size-one {
     width: 30%;
     height: 30%;
 }
-.logo-size-two{
+
+.logo-size-two {
     width: 40%;
     height: 40%;
 }
-.logo-flex{
+
+.logo-flex {
     display: flex;
     gap: 5%;
 }
-.uncenter{
+
+.uncenter {
     text-align: left;
 }
-.description{
-    font-family: Arial,'Space Grotesk', sans-serif;
+
+.description {
+    font-family: Arial, 'Space Grotesk', sans-serif;
     font-size: 12px;
     line-height: 27px;
     color: #000000;
 
 }
-.screen-swap{
+
+.screen-swap {
     width: 40%;
     height: 40%;
 }
-.screen-swap:hover{
+
+.screen-swap:hover {
     animation-duration: 1s;
     animation-name: sizing;
     -moz-animation-name: sizing;
@@ -229,28 +263,32 @@ main{
     -webkit-animation-name: sizing;
     -webkit-animation-duration: 1s;
 }
+
 @keyframes sizing {
-    0%{
+    0% {
         width: 40%;
         height: 40%;
     }
-    50%{
+    50% {
         width: 42%;
         height: 42%;
     }
-    100%{
+    100% {
         width: 40%;
         height: 40%;
     }
 }
-.swap-screen{
+
+.swap-screen {
     width: 100%;
     height: 100%;
 }
-.medium-margin{
+
+.medium-margin {
     margin-right: 10%;
     margin-left: 10%;
 }
+
 .flex-logos > div:hover {
     border-radius: 20px;
     box-shadow: rgba(0, 0, 0, 0.24) 0 3px 8px;
@@ -259,11 +297,13 @@ main{
     -o-transition: box-shadow 0.2s ease-in-out;
     -webkit-transition: box-shadow 0.2s ease-in-out;
 }
-.flex-logos > div{
+
+.flex-logos > div {
     width: 15%;
     height: 15%;
 }
-.flex-logos{
+
+.flex-logos {
     margin-top: 5%;
     margin-left: 5%;
     margin-right: 5%;
@@ -271,39 +311,47 @@ main{
     justify-content: center;
     flex-wrap: wrap;
 }
-.flex-logo{
+
+.flex-logo {
     width: 100%;
     height: 100%;
 }
-.screens-flex{
+
+.screens-flex {
     gap: 5%;
     display: flex;
     justify-content: center;
 }
-.screens{
+
+.screens {
     height: 400px;
     width: 500px;
 }
-.screen{
+
+.screen {
     width: 65%;
     height: 65%;
     position: relative;
 }
-.size{
+
+.size {
     width: 100%;
     height: 100%;
 }
-.office-workload{
+
+.office-workload {
     top: -185%;
     right: 23%;
     z-index: 4;
 }
-.works-remote{
+
+.works-remote {
     top: -124%;
     right: -45%;
     z-index: 3;
 }
-.statuse-screen:hover,.works-remote:hover,.bacground-screen:hover{
+
+.statuse-screen:hover, .works-remote:hover, .bacground-screen:hover {
     animation-duration: 1s;
     animation-name: visibility;
     -moz-animation-name: visibility;
@@ -318,6 +366,7 @@ main{
     -webkit-transition: z-index 0.5s ease-in-out;
     transition: z-index 0.5s ease-in-out;
 }
+
 @keyframes visibility {
     0% {
         opacity: 1;
@@ -335,44 +384,52 @@ main{
         opacity: 1;
     }
 }
-.statuse-screen{
+
+.statuse-screen {
     top: -40.5%;
-    right:-16%;
+    right: -16%;
     z-index: 2;
 }
-.bacground-screen{
+
+.bacground-screen {
     right: -30%;
     top: 20.5%;
     z-index: 1;
 }
-.mocup-ico{
-    width:30%;
+
+.mocup-ico {
+    width: 30%;
     height: 30%;
 }
-.mocup-ico img{
+
+.mocup-ico img {
     width: 100%;
     height: 100%;
 }
-.flex-white-block{
+
+.flex-white-block {
     display: flex;
     gap: 2%;
     justify-content: center;
 }
-.white-block{
+
+.white-block {
     padding: 5%;
     background: #FFFFFF;
     border-radius: 50px;
 }
-.list{
-    font-family: Arial,'Space Grotesk', sans-serif;
+
+.list {
+    font-family: Arial, 'Space Grotesk', sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 18px;
     line-height: 27px;
     color: #000000;
 }
-.button-green{
-    font-family: Roboto,sans-serif;
+
+.button-green {
+    font-family: Roboto, sans-serif;
     font-weight: 400;
     font-size: 17px;
     line-height: 20px;
@@ -387,14 +444,16 @@ main{
     width: 100%;
     box-shadow: #ADFF33 0 3px 8px;
 }
-.input-email:focus{
+
+.input-email:focus {
     outline: none;
     border: solid #ADFF33 1px;
     box-shadow: #ADFF33 0 3px 8px;
 }
+
 .button-green:hover {
     border-color: transparent;
-    box-shadow: 0 5px 15px rgba(0,0,0,0.3);
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
     animation-name: green;
     animation-duration: 0.5s;
     -moz-animation-name: green;
@@ -404,54 +463,61 @@ main{
     -webkit-animation-name: green;
     -webkit-animation-duration: 0.5s;
 }
+
 @keyframes green {
-    0%{
+    0% {
         box-shadow: #ADFF33 0 3px 8px;
     }
-    100%{
-        box-shadow: 0 5px 15px rgba(0,0,0,0.3);
+    100% {
+        box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
     }
 }
 
 
-.flex-label{
+.flex-label {
     gap: 8%;
     width: 100%;
     height: 100%;
     align-items: flex-end;
     display: flex;
 }
-.email-put{
+
+.email-put {
     height: 100%;
     width: 30%;
 }
-.input-email{
+
+.input-email {
     border-radius: 20px;
     height: 52px;
     padding: 10px 0 10px 30px;
     border: transparent 0 solid;
     width: 100%;
 }
-.input-email::placeholder{
+
+.input-email::placeholder {
     outline: none;
-    font-family: Arial,'Space Grotesk', sans-serif;
+    font-family: Arial, 'Space Grotesk', sans-serif;
     font-weight: 400;
     font-size: 18px;
     line-height: 27px;
     color: #000000;
 }
-.footer-flex{
+
+.footer-flex {
     align-items: baseline;
     display: flex;
     justify-content: space-between;
 }
-.active:hover{
+
+.active:hover {
     color: #7B7B7B;
     text-decoration: underline;
 }
-.active{
+
+.active {
     color: #000;
-    font-family: Arial,'Space Grotesk', sans-serif;
+    font-family: Arial, 'Space Grotesk', sans-serif;
     font-size: 18px;
     text-decoration: none;
     border-bottom: 1px solid transparent;
@@ -460,13 +526,15 @@ main{
     -webkit-transition: all 0.3s ease-in-out;
     transition: all 0.3s ease-in-out;
 }
-.active:hover{
+
+.active:hover {
     text-decoration: none;
     color: #7B7B7B;
     border-bottom-color: #7B7B7B;
 }
-.unactive{
-    font-family: Arial,'Space Grotesk', sans-serif;
+
+.unactive {
+    font-family: Arial, 'Space Grotesk', sans-serif;
     font-size: 18px;
     line-height: 29px;
     text-decoration: none;
@@ -477,39 +545,48 @@ main{
     transition: all 0.3s ease-in-out;
     color: #7B7B7B;
 }
-.unactive:hover{
+
+.unactive:hover {
     border-bottom-color: black;
 }
-.main-p{
-    font-family: Arial,'Space Grotesk', sans-serif;
+
+.main-p {
+    font-family: Arial, 'Space Grotesk', sans-serif;
     font-size: 15px;
     line-height: 21px;
     color: #7B7B7B;
     margin-bottom: 0;
 }
-footer{
+
+footer {
     padding-top: 5%;
     padding-bottom: 3%;
 }
-.footer-p{
-    font-family: Arial,'Space Grotesk', sans-serif;
+
+.footer-p {
+    font-family: Arial, 'Space Grotesk', sans-serif;
     font-size: 18px;
     color: #7B7B7B;
     margin-bottom: 0;
 }
-.footer-flex img{
+
+.footer-flex img {
     float: right;
     width: 60%;
 }
-.medium-mobile{
+
+.medium-mobile {
     display: none;
 }
-.medium-tablet{
+
+.medium-tablet {
     display: none;
 }
-.medium-mobile-little{
+
+.medium-mobile-little {
     display: none;
 }
+
 .goog-text-highlight {
     background-color: inherit;
     box-shadow: none;
@@ -538,90 +615,261 @@ footer{
 .language__img_active {
     opacity: 1;
 }
-@media only screen and (max-width: 996px){
+
+/*Modal*/
+.modal {
+}
+
+.modal.open .modal-overlay, .modal.open .modal-window {
+    opacity: 1;
+    z-index: 1000;
+}
+.modal.hide .modal-overlay, .modal.hide .modal-window {
+    opacity: 1;
+    z-index: 1000;
+}
+
+.modal.open .modal-window {
+    transform: translateY(100px);
+}
+
+.modal.open .modal-overlay {
+    background: rgba(0, 0, 0, .5);
+}
+.modal.hide .modal-window {
+    transform: translateY(-200px);
+}
+
+.modal.hide .modal-overlay {
+    background: rgba(0, 0, 0, 0);
+}
+
+.modal-window, .modal-overlay {
+    opacity: 0;
+    z-index: -1;
+}
+
+.modal-overlay {
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0);
+    transition: background .2s ease-in;
+}
+
+.modal-window {
+    width: 600px;
+    border-radius: 30px;
+    background: white;
+    margin: 0 auto;
+    transform: translateY(-200px);
+    transition: transform .2s ease-in;
+}
+
+.modal-header {
+    padding: 20px 40px;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid #EEEEEA;
+}
+
+.modal-title {
+    font-family: Arial, 'Space Grotesk', sans-serif;
+    color: black;
+    font-size: 20px;
+    display: flex;
+    align-items: flex-end;
+}
+
+.modal-close {
+    cursor: pointer;
+    font-size: 32px;
+}
+
+.modal-body {
+    font-family: Arial, 'Space Grotesk', sans-serif;
+    color: black;
+    font-size: 16px;
+    padding: 10px;
+}
+
+.modal-footer {
+    padding: 20px 40px;
+    border-top: 1px solid #EEEEEA;
+}
+
+.button-reg {
+    gap: 10%;
+    display: flex;
+    justify-content: center;
+}
+
+.button-reg button:hover {
+    color: #EEEEEA;
+    border-color: transparent;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+    animation-name: green;
+    animation-duration: 0.5s;
+    -moz-animation-name: green;
+    -moz-animation-duration: 0.5s;
+    -o-animation-name: green;
+    -o-animation-duration: 0.5s;
+    -webkit-animation-name: green;
+    -webkit-animation-duration: 0.5s;
+}
+
+.button-reg button {
+    font-family: Roboto, sans-serif;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 20px;
+    text-align: center;
+    color: #1e1e1e;
+    border: none;
+    padding: 10px 22px;
+    text-decoration: none;
+    background: #B1FA16;
+    border-radius: 20px;
+    box-shadow: #ADFF33 0 3px 8px;
+}
+
+.modal-body p {
+    width: 45%;
+    height: 45%;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.modal-body input {
+    background: transparent;
+    border: none;
+}
+
+.modal-body input::placeholder {
+    color: black;
+}
+
+.input-data {
+    padding: 1%;
+    border-radius: 10px;
+    margin-right: auto;
+    margin-left: auto;
+    background: #f5f3f3;
+    width: 40%;
+    height: 40%;
+}
+.reg-email,.reg-password{
+    width: 100%;
+}
+.reg-email:focus,.reg-password:focus {
+    color: black;
+    outline: none;
+}
+
+@media only screen and (max-width: 996px) {
     .screen {
         width: 55%;
         height: 55%;
     }
-    .office-workload{
+
+    .office-workload {
         top: -155%;
         right: 0;
     }
-    .works-remote{
+
+    .works-remote {
         top: -94%;
         right: -45%;
     }
-    .statuse-screen{
+
+    .statuse-screen {
         top: -20.5%;
-        right:-16%;
+        right: -16%;
     }
-    .bacground-screen{
+
+    .bacground-screen {
         right: -30%;
         top: 30%;
     }
 }
-@media only screen and (max-width: 861px){
+
+@media only screen and (max-width: 861px) {
+    .modal-window {
+        width: 400px;
+    }
     @keyframes sizing {
-        0%{
+        0% {
             width: 40%;
             height: 40%;
         }
-        50%{
+        50% {
             width: 41%;
             height: 41%;
         }
-        100%{
+        100% {
             width: 40%;
             height: 40%;
         }
     }
-    main >div{
-        padding-left: 3% ;
+    main > div {
+        padding-left: 3%;
         padding-right: 3%;
     }
+
     .description {
         font-size: 10px;
         line-height: 25px;
     }
+
     .main-p {
         font-size: 12px;
         line-height: 18px;
     }
-    .hero-text{
+
+    .hero-text {
 
         font-size: 36px;
         line-height: 38px;
         margin-bottom: 3%;
     }
-    .medium-communication{
+
+    .medium-communication {
         display: none;
     }
-    .medium-tablet{
+
+    .medium-tablet {
         margin-left: auto;
         margin-right: auto;
         width: 90%;
         height: 90%;
         display: block;
     }
+
     .white-block {
         padding: 5% 5% 10% 5%;
         background: #FFFFFF;
         border-radius: 50px;
         margin-bottom: 5%;
     }
-    .white-block p{
+
+    .white-block p {
         margin-top: 10px;
     }
-    .flex-logos > div{
+
+    .flex-logos > div {
         width: 25%;
         height: 25%;
     }
+
     .switch {
         position: relative;
         display: inline-block;
         width: 80px;
         height: 32px;
     }
+
     .slider:before {
         position: absolute;
         content: "";
@@ -630,13 +878,16 @@ footer{
         bottom: 3px;
         width: 27px;
     }
-    .under-hero-text{
+
+    .under-hero-text {
         margin-top: 5px;
     }
+
     .list {
         font-size: 14px;
         line-height: 23px;
     }
+
     input:checked + .slider:before {
         transform: translateX(44px);
     }
@@ -646,17 +897,30 @@ footer{
     }
 
 }
-@media only screen and (max-width: 716px){
+
+@media only screen and (max-width: 716px) {
+    .reg-password::placeholder,.reg-email::placeholder{
+        font-size: 10px;
+    }
+    .modal-header {
+        padding: 10px 25px;
+    }
+    .modal-title {
+        font-size: 16px;
+    }
+    .modal-body > p {
+        font-size: 12px;
+    }
     @keyframes sizing {
-        0%{
+        0% {
             width: 40%;
             height: 40%;
         }
-        50%{
+        50% {
             width: 41%;
             height: 41%;
         }
-        100%{
+        100% {
             width: 40%;
             height: 40%;
         }
@@ -664,35 +928,41 @@ footer{
     header a {
         margin-left: 20px;
     }
+
     header button, main button {
         padding: 10px 20px;
         border-radius: 15px;
     }
+
     .flex-label {
         justify-content: center;
         display: flex;
     }
+
     .footer-p {
         font-size: 12px;
     }
+
     .unactive {
         font-size: 14px;
     }
+
     .active {
         font-size: 14px;
     }
 }
-@media only screen and (max-width: 584px){
+
+@media only screen and (max-width: 584px) {
     @keyframes sizing {
-        0%{
+        0% {
             width: 70%;
             height: 70%;
         }
-        50%{
+        50% {
             width: 71%;
             height: 71%;
         }
-        100%{
+        100% {
             width: 70%;
             height: 70%;
         }
@@ -700,77 +970,94 @@ footer{
     .input-email::placeholder {
         font-size: 12px;
     }
+
     .input-email {
         height: 32px;
     }
+
     .flex-label {
         align-items: center;
     }
+
     .button-green {
         padding: 10px 32px;
         border-radius: 20px;
         height: 48px;
     }
+
     .under-description {
         font-size: 14px;
         line-height: 18px;
     }
+
     .description {
         font-size: 10px;
         line-height: 15px;
     }
+
     .under-flex {
         display: block;
     }
+
     .under-flex > div {
         width: 70%;
         height: 70%;
         margin-right: auto;
         margin-left: auto;
     }
+
     header button, main button {
         font-size: 10px;
         padding: 5px 15px;
         border-radius: 15px;
     }
+
     .hero-text {
         font-size: 24px;
         line-height: 28px;
     }
+
     .list {
         line-height: 20px;
     }
-    .medium-tablet{
+
+    .medium-tablet {
         display: none;
     }
-    .medium-mobile{
+
+    .medium-mobile {
         margin-left: auto;
         margin-right: auto;
         width: 60%;
         height: 50%;
         display: block;
     }
-    .screen-timso,.screen-swap {
+
+    .screen-timso, .screen-swap {
         width: 60%;
         height: 60%;
     }
 
-    .screen-swap{
+    .screen-swap {
         margin-top: 10%;
     }
+
     .margin-top {
         margin-top: 10%;
     }
+
     .screens-flex {
         display: block;
     }
-    .mobile-center{
+
+    .mobile-center {
         width: 70%;
         height: 70%;
         margin-right: auto;
         margin-left: auto;
     }
-    .screen{
+
+    .screen {
         width: auto;
     }
 
@@ -779,64 +1066,82 @@ footer{
         width: 300px;
     }
 }
-@media only screen and (max-width: 520px){
+
+@media only screen and (max-width: 520px) {
     header a {
         margin-right: 5px;
         margin-left: 5px;
     }
+
     .active {
         font-size: 10px;
     }
 }
-@media only screen and (max-width: 427px){
+
+@media only screen and (max-width: 427px) {
+    .modal-window {
+        width: 300px;
+    }
     .flex-label {
         gap: 20%;
         align-items: center;
     }
-    .screens-flex{
+
+    .screens-flex {
         width: 90%;
     }
+
     .screens {
         height: 300px;
         width: 200px;
     }
-    body{
+
+    body {
         margin-left: auto;
         margin-right: auto;
     }
-    .medium-mobile{
+
+    .medium-mobile {
         display: none;
     }
+
     .white-block {
         padding: 5% 5% 1% 5%;
     }
-    .flex-white-block{
+
+    .flex-white-block {
         display: block;
     }
+
     .hero-text {
         font-size: 24px;
         line-height: 28px;
     }
-    .medium-mobile-little{
+
+    .medium-mobile-little {
         margin-left: auto;
         margin-right: auto;
         width: 80%;
         display: block;
     }
 }
-@media only screen and (max-width: 340px){
+
+@media only screen and (max-width: 340px) {
     .list {
         font-size: 12px;
         line-height: 21px;
     }
+
     .under-description {
         font-size: 12px;
         line-height: 16px;
     }
+
     .hero-text {
         font-size: 18px;
         line-height: 22px;
     }
+
     .description {
         font-size: 9px;
         line-height: 14px;
